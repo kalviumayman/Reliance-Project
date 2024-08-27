@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(228, 37, 41);
+    color: #e92c2c;
+    width: 100%;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.header-top .logo img {
+    height: 50px;
+}
+
+.header-top .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-top .search-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-top .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6f00;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.header-top .cart {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    background-color: rgb(228, 37, 41);
+}
+
+.header-top .cart img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.main-nav {
+    background-color: #003366;
+    width: 100%;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.products {
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.categories .category {
+    text-align: center;
+}
+
+.categories .category img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.products {
+    padding: 20px;
+    background-color: white;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    text-align: center;
+    width: 150px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 410;
+}
+
+.product-item img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    /* height: auto; */
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.prodDiv{
+    background-color: #F4F4F4;
+    width: 100% ;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.prodDiv1{
+    background-color: #F4F4F4;
+    width: 100% ;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.prodDiv2{
+    background-color: #F4F4F4;
+    width: 100% ;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    text-align: center;    
+}
+
+.prodDiv>h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+}
+
+.prodDiv1>h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+}
+
+.prodDiv2>h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+}
