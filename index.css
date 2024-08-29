@@ -46,6 +46,7 @@ header {
     padding: 10px;
     border-radius: 5px;
     border: none;
+    margin-left: 50px;
 }
 
 .header-top .search-bar button {
@@ -199,4 +200,72 @@ footer {
 .prodDiv2>h2{
     font-family: "Roboto", sans-serif;
     font-weight: 350;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #004aad;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ff6f00;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+    margin: 28px;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #002244;
+    font-size: 12px;
 }
